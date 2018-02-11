@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		2B8D5B0E2030E5F700EFC3CD /* HFormWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8D5B0C2030E5F700EFC3CD /* HFormWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B8D5B432030E86E00EFC3CD /* HFormWrapperViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8D5B412030E86E00EFC3CD /* HFormWrapperViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B8D5B442030E86E00EFC3CD /* HFormWrapperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8D5B422030E86E00EFC3CD /* HFormWrapperViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2B8D5B092030E5F700EFC3CD /* HFormWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HFormWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B8D5B0C2030E5F700EFC3CD /* HFormWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFormWrapper.h; sourceTree = "<group>"; };
 		2B8D5B0D2030E5F700EFC3CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B8D5B412030E86E00EFC3CD /* HFormWrapperViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFormWrapperViewController.h; sourceTree = "<group>"; };
+		2B8D5B422030E86E00EFC3CD /* HFormWrapperViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFormWrapperViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				2B8D5B0C2030E5F700EFC3CD /* HFormWrapper.h */,
 				2B8D5B0D2030E5F700EFC3CD /* Info.plist */,
+				2B8D5B412030E86E00EFC3CD /* HFormWrapperViewController.h */,
+				2B8D5B422030E86E00EFC3CD /* HFormWrapperViewController.m */,
 			);
 			path = HFormWrapper;
 			sourceTree = "<group>";
@@ -59,6 +65,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B8D5B432030E86E00EFC3CD /* HFormWrapperViewController.h in Headers */,
 				2B8D5B0E2030E5F700EFC3CD /* HFormWrapper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B8D5B442030E86E00EFC3CD /* HFormWrapperViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
